@@ -1,0 +1,140 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sns', 'sans-serif';
+    background-size: 1920px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+    font-family: sans-serif;
+    
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background: blue;
+}
+
+.table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.tabel2{
+    background-color: #364f6b;
+    width: 200px;
+    color: white;
+}
+
+.tabel3{
+    background-color: greenyellow;
+}
+
+.tabel, tr, td{
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.tabel tr{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tabel tr:hover{
+    background-color: gainsboro;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
